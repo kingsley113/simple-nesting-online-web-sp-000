@@ -1,4 +1,4 @@
-
+require 'pry'
 def hopper
 	programmer_hash =
  		{
@@ -58,7 +58,7 @@ def dennis_ritchies_language
         }
      }
 
-		 programmer_hash.fetch([:dennis_ritchie][:languages])
+		 programmer_hash[:dennis_ritchie][:languages]
 
 end
 
